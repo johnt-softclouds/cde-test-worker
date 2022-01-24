@@ -4,9 +4,9 @@ public class WorkerProcess
     {
         while(true) {
         	try { 
-        	    Thread.sleep(1000);
+        	    Thread.sleep(2000);
             } catch(InterruptedException e) {}
-            System.out.println("Worker process woke up");
+            System.out.println("Worker process woke up!");
         }
     }    
 }
