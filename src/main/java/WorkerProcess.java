@@ -6,7 +6,7 @@ public class WorkerProcess
         	try { 
         	    Thread.sleep(2000);
             } catch(InterruptedException e) {}
-            System.out.println("cde-test-worker. Worker process woke up!");
+            System.out.println("cde-test-worker. Worker process woke up!!");
         }
     }    
 }
